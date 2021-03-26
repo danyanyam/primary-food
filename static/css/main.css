@@ -1,0 +1,25 @@
+.main-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-block div {
+    margin-top: 300px;
+    width: 300px;
+    height: 300px;
+}
+
+.main-block div h3 {
+    font-family: 'San Francisco Pro Display Semibold Italic';
+}
+
+@font-face {
+    font-family: 'San Francisco Pro Display Semibold Italic';
+    src: url('SFProDisplay-Bold.eot');
+    src: url('SFProDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+    url('SFProDisplay-Bold.woff') format('woff'),
+    url('SFProDisplay-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }

@@ -17,6 +17,7 @@ input[type=text] {
     -webkit-transition: 0.5s;
     transition: 0.5s;
     outline: none;
+    width: 100%;
   }
   
   input[type=text]:focus {
@@ -41,12 +42,16 @@ button {
 
 .search-box {
     display: flex;
-    margin-top: 5px;
+    margin-top: 50%;
     padding: 5px;
-    padding-left: 10px;
     height: auto;
     background-color: rgb(245, 245, 245);
-    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+.found {
+    padding: 5px;
+    background-color: rgb(245, 245, 245);
+    font-family: sans-serif;
 }
 .search-box div {
     width: 100%;
